@@ -1,0 +1,297 @@
+{%extends 'base.html'%}
+{%include 'header.html'%}
+
+
+{% block title%} Home	{%endblock%}
+
+
+
+{%block body%}
+
+<div class="container">
+	<div class="row">
+		<div class="col md-12">
+	
+			<div class="jumbotron p-3">
+            <!--Button ADD NEW BOOK: points to form id="mymodal"-->
+				<h2>Manage <b>Books</b> <button type="button" class="btn btn-success float-right"
+					data-toggle="modal" data-target="#mymodal">Add new Book</button></h2>
+					
+
+			{% with messages = get_flashed_messages()%}
+
+				{%if messages %}
+
+					{% for message in messages %}
+
+						<div class="alert alert-success alert-dismissable" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="close">
+								<span aria-hidden="true">x</span>
+							</button>
+							{{message}}
+						</div>
+
+						
+
+					{%endfor%}
+
+
+
+
+				{% endif %}
+
+			{% endwith %}
+
+
+			<table class="table table-hover table-dark">
+				<tr>
+					<th>ID</th>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Reading Progress (%)</th>
+					<th>Action</th>
+
+				</tr>
+            <!--variable books comes from route Index in App.py -->
+				{% for row in books %}
+
+				<tr>
+					<td>{{row.idbook}}</td>
+					<td>{{row.title}}</td>
+					<td>{{row.author}}</td>
+					<td>{{row.progress * 100}}</td>
+
+					<td>
+						<!--EDIT button : calls the URL update in App.py
+						points towards form id="modaledit" -->
+						<a href="/update/{{row.idbook}}" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit{{row.idbook}}">Edit</a>
+
+						<!-- DELETE BUTTON -->
+						<a href="/delete/{{row.idbook}}" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure to delete')">Delete</a>
+					</td>
+
+
+				</tr>
+
+  <!-- Modal Edit Book-->
+<div id="modaledit{{row.idbook}}" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+ 
+ 
+      <div class="modal-content">
+ 
+ 
+         <div class="modal-header">
+ 
+ 
+            <h4 class="modal-title">Update Information</h4>
+ 
+ 
+         </div>
+ 
+ 
+         <div class="modal-body">
+ 
+ 			<!--EDIT FROM-->
+            <form action="{{url_for('update')}}" method="POST">
+ 
+ 
+               <div class="form-group">
+ 
+ 
+                  <label>Title:</label>
+                   <input type="hidden"  name="id" value="{{row.idbook}}">
+ 
+                  <input type="text" class="form-control" name="title" value="{{row.title}}">
+ 
+ 
+               </div>
+ 
+ 
+ 
+               <div class="form-group">
+ 
+ 
+                  <label>Author:</label>
+ 
+                  <input type="text" class="form-control" name="author" value="{{row.author}}">
+ 
+ 
+               </div>
+ 
+ 
+               <div class="form-group">
+ 
+ 
+                  <label>Pages Total:</label>
+ 
+                  <input type="number" class="form-control" name="pages_total" value="{{row.pages_total}}" readonly>
+ 
+ 
+               </div>
+               <!--User inserts new number of pages read-->
+               <div class="form-group">
+ 
+ 
+                  <label>Pages Read:</label>
+ 
+                  <input type="number" class="form-control" name="pages_read" value="{{row.pages_read}}">
+ 
+               </div>
+               <!--Show the actual reading progress-->
+               <div class="form-group">
+ 
+ 
+                  <label>Actual Reading Progress (%):</label>
+ 
+                  <input type="number" class="form-control" name="progress" value="{{row.progress * 100}}" readonly>
+ 
+               </div>
+
+
+
+
+ 
+               <div class="form-group">
+ 
+ 
+                  <button class="btn btn-primary" type="submit">Update</button>
+ 
+ 
+               </div>
+ 
+ 
+            </form>
+ 
+ 
+         </div>
+ 
+ 
+         <div class="modal-footer">
+ 
+ 
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+ 
+ 
+         </div>
+ 
+ 
+      </div>
+ 
+ 
+   </div>
+ 
+</div>
+
+				{%endfor%}
+			</table>
+
+
+			</div>	
+
+
+
+             <!-- Modal Add Book-->
+ 
+ 
+<div id="mymodal" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+ 
+            <h4 class="modal-title">Add Book</h4>
+         </div>
+         <div class="modal-body">
+ 
+            <form action="{{url_for('insert')}}" method="POST">
+ 
+ 
+               <div class="form-group">
+ 
+                  <label>Title:</label>
+                  <input type="text" class="form-control" name="title" required="1">
+ 
+ 
+               </div>
+ 
+ 
+                <div class="form-group">
+ 
+ 
+                  <label>Author:</label>
+                  <input type="text" class="form-control" name="author" required="1">
+ 
+ 
+               </div>
+ 
+ 
+                <div class="form-group">
+ 
+ 
+                  <label>Year:</label>
+                  <input type="number" class="form-control" name="year">
+ 
+ 
+               </div>
+
+                <div class="form-group">
+ 
+ 
+                  <label>Pages total:</label>
+                  <input type="number" class="form-control" name="pages_total" required="1">
+ 
+ 
+               </div>
+ 
+ 
+ 
+               <div class="form-group">
+ 
+ 
+                  <button class="btn btn-primary" type="submit">Add Book</button>
+ 
+ 
+               </div>
+ 
+ 
+            </form>
+ 
+ 
+         </div>
+ 
+ 
+         <div class="modal-footer">
+ 
+ 
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+ 
+ 
+         </div>
+ 
+ 
+      </div>
+ 
+ 
+   </div>
+ 
+ 
+</div>
+
+
+
+  
+ 
+ 
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+{%endblock%}

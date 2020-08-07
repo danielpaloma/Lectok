@@ -1,0 +1,122 @@
+idbook;title;author;year;pages_total;pages_read;progress
+1;A Beginners Guide to Python 3 Programming;John Hunt;2019;441;249;0.56
+2;"Advanced Guide to Python 3
+Programming";John Hunt;2019;494;0;0
+3;Beginning Python: From Novice to Professional;Magnus Lie Hetland;2017;544;0;0
+4;Mastering Python;Rick van Hattem;2016;486;0;0
+5;Python Cookbook;"David Beazley; Brian K. Jones";2013;706;0;0
+6;Python Made Easy: Up and Running with Python;;;168;0;0
+7;Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns;Mark Summerfield;2014;323;0;0
+8;Think Python: How to Think Like a Computer Scientist;Allen Downey;2015;244;0;0
+9;"Introduction to Computation and
+Programming Using Python";John V. Guttag;2013;315;0;0
+10;"Automate the Boring Stuff with Python: Practical Programming
+for Total Beginners";Al Sweigart;2015;505;0;0
+11;Data Science for Business;"Foster Provost; Tom Fawcett";2013;409;0;0
+12;Doing Data Science;"Rachel Schutt; Cathy ONeil";2014;405;98;0.24
+13;"Introducing Data Science: 
+BIG DATA, MACHINE LEARNING,
+AND MORE, USING PYTHON TOOLS";DAVY CIELEN;2016;322;0;0
+14;Learning Data Mining with Python;Robert Layton;2017;657;0;0
+15;Python Data Analysis Cookbook;Ivan Idris;2016;463;0;0
+16;Python Data Science Essentials;"Alberto Boschetti; Luca Massaron";2015;351;0;0
+17;Python for Data Analysis;Wes McKinney;2013;470;0;0
+18;Python Data Science Handbook: Essential Tools for Working with Data;Jake VanderPlas;2017;548;0;0
+19;Applied Natural Language Processing with Python;Taweh Beysolow;2018;158;0;0
+20;Natural Language Processing with Python;Steven Bird;2009;504;0;0
+21;Python Programming for the Absolute Beginner;Michael Dawson;2010;480;0;0
+22;Inventa tus propios juegos de computadora con python;Al Sweigart;2008;380;0;0
+23;Making games with python and pygame;Al Sweigart;2012;365;0;0
+24;Data Structures and Algorithms in Python;Michael T. Goodrich;2013;770;0;0
+25;Learning Python Network Programming;"Faruque Sarker; Sam Washington";2015;320;0;0
+26;Mastering Object-oriented Python;Steven F. Lott;2014;634;0;0
+27;Python 3 Object Oriented Programming;Dusty Phillips;2010;405;0;0
+28;Python 3 Web Development;Michel Anders;2011;336;0;0
+29;Python Network Programming Cookbook;Faruque Sarker;2014;234;0;0
+30;Web Scraping with Python;Ryan Mitchell;2018;306;0;0
+31;Data Analysis with Open Source Tools;Philipp K. Janert;2011;533;0;0
+32;Head First Data Analysis;Michael Milton;2009;486;0;0
+33;Head First Object-Oriented analysis and design;Brett McLaughlin;2007;603;0;0
+34;Visualizing Data;Ben Fry;2008;384;0;0
+35;Head First Statistics;Dawn Griffiths;2009;717;0;0
+36;Introducci¢n a la inferencia estad¡stica;Armando Aguilar Marqu‚z;2010;218;0;0
+37;"Probabilidad y estad¡stica
+para ingenier¡a y ciencias";Ronald E. Walpole;2012;816;72;0.09
+38;Think Bayes: Bayesian Statistics Made Simple;Allen B. Downey;2012;213;0;0
+39;Think Stats: Exploratory Data Analysis in Python;Allen B. Downey;2014;264;264;1
+40;MySQL Cookbook;Paul DuBois;2014;866;0;0
+41;"Python code for Artificial Intelligence: Foundations of
+Computational Agents";"David L. Poole; Alan K. Mackworth";2020;227;0;0
+42;Artificial Intelligence with Python;Prateek Joshi;2017;437;0;0
+43;Artificial Intelligence: A modern approach;"Stuart Rusell; Peter Norvig";;1133;0;0
+44;Artificial Intelligence: Foundations of Computational Agents;"David L. Poole; Alan K. Mackworth";2010;682;0;0
+45;Machine Learning For Dummies, IBM Limited Edition;"Judith Hurwitz; Daniel Kirsch";2018;75;0;0
+46;Machine Learning Yearning;Andrew Ng;2018;118;0;0
+47;Practical Python AI Projects;Serge Kruk;2018;287;0;0
+48;Python Artificial Intelligence Projects for Beginners;Joshua Eckroth;2018;155;0;0
+49;"Statistics and Machine Learning in
+Python";Edouard Duchesnay;;319;0;0
+50;"Understanding Machine Learning:
+From Theory to Algorithms";"Shai Shalev-Shwartz; Shai Ben-David";2014;449;0;0
+51;Python Machine Learning;"Sebastian Raschka; Vahid Mirjalili";2019;616;182;0.3
+52;Python: Paso a paso;Angel Pablo Hinojosa;2016;229;229;1
+53;Probability;Jim Pitman;1993;560;0;0
+54;"A Modern Introduction to
+Probability and Statistics";F.M Dekking;2005;485;0;0
+55;The Algorithm Design Manual;Steven Skiena;2008;742;0;0
+56;"Robotics
+Modelling, Planning and Control";Bruno Siciliano;2009;644;0;0
+57;The elements of statistical learning: Data Mining, Inference, and Prediction;Trevor Hastie;2009;757;0;0
+58;"An Introduction to
+Statistical Learning
+with Applications in R";Gareth James;2013;434;0;0
+59;Applied Predictive Modeling;"Max Kuhn; Kjell Johnson";2013;595;0;0
+60;Concise Guide to Databases - A Practical Introduction;"Peter Lake; Paul Crowther";2013;316;0;0
+61;Probability Theory;Alexandr A. Borovkov;2013;742;0;0
+62;Data Analysis: Statistical and Computational Methods for Scientists and Engineers;Siegmund Brandt;2014;532;0;0
+63;Foundations for Designing User-Centered Systems;Frank E. Ritter;2014;460;0;0
+64;Fundamentals of Robotic Mechanical Systems: Theory, Methods, and Algorithms;Jorge Angeles;2014;610;0;0
+65;Python Programming Fundamentals;Kent D. Lee;2014;241;0;0
+66;The Python Workbook: A Brief Introduction with Exercises and Solutions;Ben Stephenson;2014;169;0;0
+67;Data Mining: The Textbook;Charu C. Aggarwal;2015;746;0;0
+68;Data Structures and Algorithms with Python;"Kent D. Lee; Steve Hubbard";2015;369;0;0
+69;Object-Oriented Analysis, Design and Implementation. An Integrated Approach;"Brahma Dathan; Sarnath Ramnath";2015;479;0;0
+70;"Statistical Analysis and Data Display
+An Intermediate Course with Examples in R";"Richard M. Heiberger; Burt Holland";2015;909;0;0
+71;Statistics and Data Analysis for Financial Engineering with R examples;"David Ruppert; David S. Matteson";2015;736;0;0
+72;A Primer on Scientific Programming with Python;Hans Petter Langtangen;2016;942;0;0
+73;Cryptography Made Simple;Nigel P. Smart;2016;478;0;0
+74;Energy Storage: Fundamentals, Materials and Applications;Robert A. Huggins;2016;540;0;0
+75;Introduction to Statistics and Data Analysis With Exercises, Solutions and Applications in R;"Christian Heumann; Michael Schomaker";2016;457;0;0
+76;Principles of Data Mining;Max Bramer;2016;530;0;0
+77;Recommender Systems: The Textbook;Charu C. Aggarwal;2016;518;0;0
+78;Concise Guide to Software Engineering: From Fundamentals to Application Methods;Gerard ORegan;2017;344;0;0
+79;Design and Analysis of Experiments;Angela Dean;2017;852;0;0
+80;Introduction to Artificial Intelligence;Wolfgang Ertel;2017;365;0;0
+81;"Introduction to Data Science: 
+A Python Approach to Concepts,
+Techniques and Applications";"Laura Igual; Santi Segu¡";2017;227;0;0
+82;Statistics and Analysis of Scientic Data;Massimiliano Bonamente;2017;323;0;0
+83;The Data Science Design Manual;Steven S. Skiena;2017;456;0;0
+84;"Data Science and Predictive
+Analytics: Biomedical and Health Applications using R";Ivo D. Dinov;2018;851;0;0
+85;"Introduction to Deep
+Learning: From Logical Calculus to Artificial Intelligence";Sandro Skansi;2018;196;0;0
+86;Neural Networks and Deep Learning;Charu C. Aggarwal;2018;512;0;0
+87;Probability and Statistics for Computer Science;David Forsyth;2018;374;0;0
+88;A Concise Guide to Market Research;"Marko Sarstedt; Erik Mooi";2019;407;0;0
+89;Digital Business Models: Concepts, Models, and the Alphabet Case Study;Bernd W. Wirtz;2019;252;0;0
+90;"Essentials of Business Analytics: 
+An Introduction to the Methodology
+and its Applications";"Bhimasankaram Pochiraju; Sridhar  Seshadri";2019;971;0;0
+91;Excel Data Analysis: Modeling and Simulation;Hector Guerrero;2019;358;0;0
+92;"Managing Sustainable Business:
+An Executive Education Case and Textbook";"Gilbert G. Lenssen; N. Craig Smith";2019;705;0;0
+93;Graph databases;Ian Robinson;2015;238;0;0
+94;Graph Algorithms Practical Examples in Apache Spark and Neo4j;"Mark Needham; Amy E. Hodler";2019;257;0;0
+95;Kotlin development for Android - create your own app;Michael J. Fordham;2017;53;46;0.87
+96;Kotlin for Android Developers;Antonio Leiva;2017;191;0;0
+97;Mastering Android Development with Kotlin;Milos Vasic;2017;519;0;0
+98;Android Development with Kotlin;"Marcin Moskala; Igor Wojda";2017;562;0;0
+99;Head First Kotlin;Dawn Griffiths;2019;742;0;0
+100;Head First Android Development;Dawn Griffiths;2015;734;0;0

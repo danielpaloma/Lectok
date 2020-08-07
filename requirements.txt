@@ -1,0 +1,15 @@
+flask==1.0.2
+click==7.0
+jinja2==2.10
+itsdangerous==1.1.0
+markupsafe==1.1.1
+werkzeug==0.14.1
+flask-bootstrap==3.3.7.1
+flask-wtf==0.14.2
+flask-testing==0.7.1
+blinker==1.4
+flask-login==0.4.1
+flask-sqlalchemy == 2.4.1
+pymysql
+sqlalchemy
+sqlacodegen
