@@ -25,6 +25,9 @@ Bootstrap: Download Bootstrap and save the folders css and js in your static fol
 
 Thank you so much to **Parwiz Forogh** for his inspiration and excellent tutorials, available here: https://www.youtube.com/c/ParwizForogh/about
 
+Mobile Version (Android) inspired by Atif Pervaiz and his helpful tutorials available here: https://www.youtube.com/watch?v=TUHNUeVz4CI&list=PLs1bCj3TvmWnH9J1LJoKpXH5pzP8p2poH
+
+
 
 
 
